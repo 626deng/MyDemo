@@ -23,4 +23,10 @@ open class BaseActivity:AppCompatActivity(){
         Log.d("a","aa")
     }
 
+    fun B()
+    {
+        Log.d("b","bb")
+    }
+
+
 }
