@@ -2,6 +2,7 @@ package com.example.premissionx.mydemo.activity
 
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 open class BaseActivity:AppCompatActivity(){
@@ -15,6 +16,11 @@ open class BaseActivity:AppCompatActivity(){
         initDatum()
         initViews()
         initListeners()
+    }
+
+    fun A()
+    {
+        Log.d("a","aa")
     }
 
 }
