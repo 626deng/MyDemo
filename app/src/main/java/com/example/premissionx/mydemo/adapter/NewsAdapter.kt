@@ -17,6 +17,8 @@ import com.example.premissionx.mydemo.Utils
 import com.example.premissionx.mydemo.activity.NewsDetailsActivity
 import com.example.premissionx.mydemo.database.MyDatabaseHelper
 class NewsAdapter(val context:Context,val list:List<Data>): RecyclerView.Adapter<NewsAdapter.ViewHolder>() {
+
+
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val imageView:ImageView=itemView.findViewById(R.id.imageView)
         val textView1:TextView=itemView.findViewById(R.id.textView1)
@@ -52,5 +54,6 @@ class NewsAdapter(val context:Context,val list:List<Data>): RecyclerView.Adapter
         holder.textView2.text=news.author_name
         holder.textView3.text=news.date
     }
+
 }
 
